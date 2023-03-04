@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8351a0e3-1f69-46f2-8d98-e25b9347cabc" name="Default Changelist" comment="" />
+    <list default="true" id="8351a0e3-1f69-46f2-8d98-e25b9347cabc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/e2mg/redis/TestRedis.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="681">
@@ -28,6 +31,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -145,10 +157,12 @@
       <replace>mind-graph</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/demo/clz/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/clz/Parent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/kafka/consumer/CustomConsumer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/demo/kafka/consumer/CustomConsumer.java" />
@@ -199,6 +213,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/e2mg/redis/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/e2mg/redis/TestRedis.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -237,11 +252,12 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="580" />
+    <option name="y" value="196" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -287,13 +303,6 @@
               <item name="e2mg-redis" type="b2602c69:ProjectViewProjectNode" />
               <item name="e2mg-redis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="e2mg-redis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="e2mg-redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,8 +334,8 @@
     <property name="SearchEverywhereHistoryKey" value="Ses&#9;FILE&#9;file://D:/02_workspace/e2mg-mind-graph/src/main/java/com/e2mg/mindgraph/filter/SessionFilter.java&#10;INdex&#9;FILE&#9;file://D:/02_workspace/e2mg-mind-graph/src/main/java/com/e2mg/mindgraph/controller/IndexController.java&#10;SessionF&#9;PSI&#9;JAVA://com.e2mg.mindgraph.filter.SessionFilter&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;System&#9;PSI&#9;JAVA://java.lang.System&#10;Runtime&#9;PSI&#9;JAVA://java.lang.Runtime&#10;String&#9;FILE&#9;jar://D:/01_software/Java/jdk1.8.0_331/jre/lib/rt.jar!/java/lang/String.class&#10;StringBuild&#9;PSI&#9;JAVA://java.lang.StringBuilder&#10;HashTable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;hashtable&#9;PSI&#9;JAVA://java.util.Hashtable&#10;/org/springframework/batch/core/schema-mysql.sql&#9;FILE&#9;jar://D:/01_software/Maven/repo/org/springframework/batch/spring-batch-core/4.3.7/spring-batch-core-4.3.7.jar!/org/springframework/batch/core/schema-mysql.sql&#10;Reentra&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;DefaultPartitioner&#9;PSI&#9;JAVA://org.apache.kafka.clients.producer.internals.DefaultPartitioner&#10;Date&#9;FILE&#9;jar://D:/01_software/Java/jdk1.8.0_331/jre/lib/rt.jar!/java/util/Date.class&#10;AtomicLo&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicLong&#10;AtomicLog&#9;null&#9;null&#10;Thread&#9;FILE&#9;jar://D:/01_software/Java/jdk1.8.0_331/jre/lib/rt.jar!/java/lang/Thread.class&#10;Objec&#9;PSI&#9;JAVA://java.lang.Object" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677928265664" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../e2mg-mind-graph" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677928466943" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tadu-reader" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -565,7 +574,7 @@
       <workItem from="1677843302373" duration="27000" />
       <workItem from="1677843354521" duration="6904000" />
       <workItem from="1677886257571" duration="8295000" />
-      <workItem from="1677927850015" duration="246000" />
+      <workItem from="1677927850015" duration="612000" />
     </task>
     <servers />
   </component>
@@ -584,13 +593,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161004000" />
+    <option name="totallyTimeSpent" value="161370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1408" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2096261" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2096261" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -723,7 +732,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/em/mindgraph/utils/chatgpt/QRes.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml" />
     <entry file="file://D:/01_software/Maven/repo/org/springframework/boot/spring-boot-starter-freemarker/2.7.5/spring-boot-starter-freemarker-2.7.5.pom">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1026,6 +1034,13 @@
             <element signature="e#2752#2753#0" expanded="true" />
             <element signature="e#2792#2793#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
