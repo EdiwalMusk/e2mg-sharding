@@ -1,4 +1,4 @@
-package com.e2mg.redis;
+package com.e2mg.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

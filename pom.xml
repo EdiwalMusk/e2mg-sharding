@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.em2g</groupId>
-    <artifactId>redis</artifactId>
+    <artifactId>kafka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>e2mg-redis</name>
-    <description>e2mg-redis</description>
+    <name>e2mg-kafka</name>
+    <description>e2mg-kafka</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -27,23 +27,9 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- redis的依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-        </dependency>
-
-        <!-- redis的依赖-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-
-        <!-- redisson -->
-        <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson</artifactId>
-            <version>3.13.6</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
@@ -58,10 +44,11 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- kafka客户端 -->
         <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>3.7.0</version>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.0.0</version>
         </dependency>
 
     </dependencies>
