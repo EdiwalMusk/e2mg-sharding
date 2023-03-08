@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Redisson配置
+ * Redisson配置类
  *
  * @author EdiwalMusk
  * @date 2023/3/4 8:46
