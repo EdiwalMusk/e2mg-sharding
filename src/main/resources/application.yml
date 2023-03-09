@@ -1,4 +1,4 @@
 spring:
   profiles:
     active: dev
-    include: sharding-databases
+    include: sharding-master-slave

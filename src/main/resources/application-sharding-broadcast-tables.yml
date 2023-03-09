@@ -1,0 +1,31 @@
+spring:
+  main:
+    # 解决同一个实体对多张表的问题
+    allow-bean-definition-overriding: true
+
+  shardingsphere:
+    datasource:
+      names: ds0,ds1
+      ds0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.94.194:3306/test
+        username: root
+        password: Abc@123.
+      ds1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.94.195:3306/test
+        username: root
+        password: Abc@123.
+    sharding:
+      broadcast-tables: dict
+      tables:
+        dict:
+          key-generator:
+            column: id
+            type: SNOWFLAKE
+    props:
+      sql:
+        # 打印sql输出
+        show: true

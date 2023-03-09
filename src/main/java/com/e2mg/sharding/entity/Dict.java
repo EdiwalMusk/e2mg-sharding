@@ -9,9 +9,9 @@ import lombok.Data;
  * @date 2023/3/9 10:34
  */
 @Data
-public class User {
+public class Dict {
 
     private Long id;
 
-    private Integer age;
+    private String title;
 }
